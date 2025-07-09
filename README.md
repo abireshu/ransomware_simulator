@@ -22,13 +22,13 @@ A Python-based ethical ransomware simulation built with Streamlit, this project 
 
 ---
 
-## 🧾 General Info
+##  General Info
 
 This ransomware simulator demonstrates the lifecycle of a ransomware attack—from encryption to decryption—using strong AES-based encryption. The application includes a GUI built in Streamlit to show how attackers might lure users and demand ransom through fake Bitcoin wallets. It’s safe, controlled, and ideal for educational and training purposes in cybersecurity.
 
 ---
 
-## 🚦 Project Status
+## Project Status
 
 - **Status:** Completed (July 2025)
 - **Internship Organization:** Tamizhan Skills
@@ -54,9 +54,11 @@ This ransomware simulator demonstrates the lifecycle of a ransomware attack—fr
 
 ---
 
-## 🧱 Architecture Diagram
 
 
+##  Architecture Diagram
+
+'''plaintext
 +----------------+       +---------------+       +---------------------+
 |  Streamlit GUI | --->  | encrypt.py    | --->  | Encrypted User File |
 +----------------+       +---------------+       +---------------------+
@@ -69,10 +71,12 @@ This ransomware simulator demonstrates the lifecycle of a ransomware attack—fr
         |                        |                          |
         +---> Decryption success message to user -----------+
 
-
+'''
 ---
 
-## 🛠️ Technologies Used
+
+
+##  Technologies Used
 
 | Tool/Library  | Purpose                            |
 | ------------- | ---------------------------------- |
@@ -83,7 +87,7 @@ This ransomware simulator demonstrates the lifecycle of a ransomware attack—fr
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 * Python 3.8 or higher
 
@@ -94,7 +98,7 @@ pip install -r requirements.txt
 ```
 
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 1. **Clone the repository**:
 
@@ -124,7 +128,7 @@ python -m streamlit run home.py
 
 ---
 
-## 🔍 What Makes It Stand Out
+##  What Makes It Stand Out
 
 ✅ **Realistic Trigger Mechanism**
 Encryption starts when a user *attempts to open a file*, simulating how ransomware exploits curiosity or negligence.
@@ -143,7 +147,7 @@ A simple, clean interface suitable for demonstrations, workshops, and presentati
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 | Problem                | Solution                                              |
 | ---------------------- | ----------------------------------------------------- |
@@ -155,7 +159,7 @@ A simple, clean interface suitable for demonstrations, workshops, and presentati
 
 ---
 
-## ❓ FAQs
+##  FAQs
 
 **Q: Is this real ransomware?**
 A: No, it’s a safe, controlled simulation for learning and awareness.
@@ -171,7 +175,7 @@ A: Absolutely not. This is strictly for ethical and educational use only.
 
 ---
 
-## 🧠 Recommendations for Improvement
+##  Recommendations for Improvement
 
 * Add countdown timer to simulate urgency
 * Integrate fake email alert system
@@ -181,13 +185,13 @@ A: Absolutely not. This is strictly for ethical and educational use only.
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 Special thanks to the **Tamizhan Skills** team for their guidance throughout the internship and for providing the opportunity to explore secure coding and cybersecurity education in a hands-on manner.
 
 ---
 
-## 🔖 Hashtags
+##  Hashtags
 
 `#Cybersecurity` `#Python` `#RansomwareSimulation` `#InternshipProject` `#Streamlit` `#EducationalTools`
 
