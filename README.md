@@ -35,22 +35,21 @@ This ransomware simulator demonstrates the lifecycle of a ransomware attack—fr
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
 
-```markdown
+
 ![Main GUI](screenshots/home.png)
 ![fake file explorer](screenshots/files.png)
 ![Ransom Note](screenshots/ransom_note_popup.png)
 ![Payment Portal](screenshots/payment_portal.png)
 
-````
 
 ---
 
 ## 🧱 Architecture Diagram
 
-```plaintext
+
 +----------------+       +---------------+       +---------------------+
 |  Streamlit GUI | --->  | encrypt.py    | --->  | Encrypted User File |
 +----------------+       +---------------+       +---------------------+
@@ -62,7 +61,7 @@ This ransomware simulator demonstrates the lifecycle of a ransomware attack—fr
         |           decrypt.py (After Payment) ------------>|
         |                        |                          |
         +---> Decryption success message to user -----------+
-```
+
 
 ---
 
