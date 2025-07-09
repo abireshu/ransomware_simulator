@@ -37,11 +37,18 @@ This ransomware simulator demonstrates the lifecycle of a ransomware attack—fr
 
 ## Screenshots
 
+## Screenshots
 
-
+###  Main GUI  
 ![Main GUI](screenshots/home.png)
-![fake file explorer](screenshots/files.png)
+
+###  Fake File Explorer  
+![Fake Explorer](screenshots/files.png)
+
+###  Ransom Note  
 ![Ransom Note](screenshots/ransom_note_popup.png)
+
+###  Payment Portal  
 ![Payment Portal](screenshots/payment_portal.png)
 
 
