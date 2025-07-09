@@ -58,20 +58,7 @@ This ransomware simulator demonstrates the lifecycle of a ransomware attack—fr
 
 ##  Architecture Diagram
 
-'''plaintext
-+----------------+       +---------------+       +---------------------+
-|  Streamlit GUI | --->  | encrypt.py    | --->  | Encrypted User File |
-+----------------+       +---------------+       +---------------------+
-        |                        |                          |
-        |                        v                          |
-        |               salt.bin & password                 |
-        |                        |                          |
-        |                        v                          |
-        |           decrypt.py (After Payment) ------------>|
-        |                        |                          |
-        +---> Decryption success message to user -----------+
-
-'''
+![workflow](workflow.png)
 ---
 
 
