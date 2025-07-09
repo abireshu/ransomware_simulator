@@ -87,14 +87,6 @@ Install all dependencies:
 pip install -r requirements.txt
 ```
 
-`requirements.txt` contents:
-
-```txt
-streamlit==1.35.0
-cryptography==42.0.5
-```
-
----
 
 ## 🚀 Installation & Usage
 
